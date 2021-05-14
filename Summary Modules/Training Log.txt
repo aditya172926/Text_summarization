@@ -1,0 +1,2362 @@
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:635: UserWarning: [W033] Training a new parser or NER using a model with an empty lexeme normalization table. This may degrade the performance to some degree. If this is intentional or this language doesn't have a normalization table, please ignore this warning.
+  proc.begin_training(
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:635: UserWarning: [W034] Please install the package spacy-lookups-data in order to include the default lexeme normalization table for the language 'en'.
+  proc.begin_training(
+Starting iteration 0
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Akash Gulhane Microsoft Certified System Engineer ..." with entities "[(913, 921, 'Location'), (888, 909, 'College Name'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 163.9130666255951}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Imgeeyaul Ansari java developer  Pune, Maharashtra..." with entities "[(1894, 2173, 'Skills'), (1726, 1851, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 414.4948675632477}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Jatin Arora SDET Automation Engineer, Infosys - CR..." with entities "[(3909, 3931, 'College Name'), (3883, 3908, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 1073.655817270279}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Yogesh Ghatole Engineer / Electrical Supervisor, S..." with entities "[(2912, 3288, 'Skills'), (2721, 2726, 'UNKNOWN'), ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 1560.5512068271637}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Soumya Balan IT SUPPORT  Sulthan Bathery, Kerala, ..." with entities "[(3913, 4370, 'Skills'), (3880, 3884, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 2155.487023115158}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Mohamed Ameen System engineer  Bengaluru, Karnatak..." with entities "[(1632, 1636, 'Graduation Year'), (931, 1013, 'Ski...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 2642.037225961685}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shraddha Achar Mathura, Uttar Pradesh - Email me o..." with entities "[(975, 1020, 'Skills'), (814, 843, 'College Name')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 2795.5100924372673}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Nikhileshkumar Ikhar Product development engineer ..." with entities "[(3036, 3078, 'Skills'), (2922, 3018, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 3219.5723454356194}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shaheen Unissa SAP ABAP Consultant  Hyderabad, Tel..." with entities "[(12088, 12384, 'Skills'), (12044, 12048, 'Graduat...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 4725.080192267895}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ashish Indoriya Sr. Systems Engineer at Infosys Li..." with entities "[(3828, 3931, 'Skills'), (3753, 3794, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5014.290060698986}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "K. Siddharth System Administrator (Server) Microso..." with entities "[(1826, 1843, 'Location'), (1791, 1823, 'College N...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5104.521194696426}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Srinivas VO Sr. Test Manager  Mumbai, Maharashtra ..." with entities "[(11201, 11409, 'Skills'), (11172, 11191, 'College...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5195.954440176487}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Prakriti Shaurya Senior System Engineer - Infosys ..." with entities "[(1368, 1560, 'Skills'), (1096, 1133, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5220.30714031258}
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Prabhu Prasad Mohapatra Need job urgently  Bhubane..." with entities "[(310, 332, 'Skills'), (265, 292, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5233.834974660771}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Lakshika Neelakshi Senior Systems Engineer - Infos..." with entities "[(7260, 7599, 'Skills'), (3628, 3637, 'Location'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sameer Kujur Orrisha - Email me on Indeed: indeed...." with entities "[(210, 251, 'Skills'), (189, 200, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5245.529405081059}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ahmad Bardolia Project Lead for Infosys OpenStack ..." with entities "[(3827, 4016, 'Skills'), (3809, 3817, 'Degree'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5345.354714000012}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shabnam Saba Offshore SAP CRM Functional Consultan..." with entities "[(3347, 3474, 'Skills'), (3333, 3337, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5358.543259906541}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Laya A Cluster HR Manager - Velammal New  Chennai,..." with entities "[(3758, 4638, 'Skills'), (3725, 3742, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5365.855208854774}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Paul Rajiv Secunderabad, Andhra Pradesh - Email me..." with entities "[(4729, 4733, 'Graduation Year'), (2634, 2638, 'Gr...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5376.863917825262}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Madhuri Sripathi Banglore, Karnataka, Karnataka - ..." with entities "[(4563, 4747, 'Skills'), (4538, 4552, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5406.061615563339}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Palani S Senior Technology Support Executive at In..." with entities "[(3660, 3664, 'Graduation Year'), (3598, 3602, 'Gr...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Vikas Singh Chandigarh, Chandigarh - Email me on I..." with entities "[(5347, 5750, 'Skills'), (5333, 5337, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5493.722802679628}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Navjyot Singh Rathore Ulhasnagar, Maharashtra - Em..." with entities "[(605, 753, 'Skills'), (403, 407, 'Graduation Year...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5522.329722500851}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Jay Madhavi Navi Mumbai, Maharashtra - Email me on..." with entities "[(1520, 1524, 'Graduation Year'), (1507, 1518, 'De...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5552.021884217372}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "pradeep chauhan pradeep chauhan  Noida, Uttar Prad..." with entities "[(332, 337, 'Location'), (296, 329, 'College Name'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5573.169924792973}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Prasanna Ignatius MICROSOFT - Backup Administrator..." with entities "[(3917, 3975, 'Skills'), (3790, 3835, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5653.098320600716}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Puran Mal Jaipur, Rajasthan - Email me on Indeed: ..." with entities "[(193, 511, 'Skills'), (174, 183, 'Degree'), (126,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Karthik GV Architect - Microsoft India  Hyderabad,..." with entities "[(4048, 4169, 'Skills'), (4034, 4038, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5706.147475269762}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Santosh Ganta Senior Systems Engineer - mainframe ..." with entities "[(957, 1203, 'Skills'), (662, 775, 'Skills'), (648...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5868.560732332197}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ramesh HP CES ASSOCIATE CONSULTANT  Bangalore, Kar..." with entities "[(2668, 2945, 'Skills'), (2618, 2638, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 5929.370246139494}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Viny Khandelwal Self-employed in Family Business -..." with entities "[(3375, 3390, 'Name'), (2952, 3086, 'Skills'), (28...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6035.436053601233}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shaik Tazuddin Senior Process Executive - STAR Ind..." with entities "[(2877, 3031, 'Skills'), (2728, 2742, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6129.293708649603}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Raktim Podder 6+ Exp in banking operations and cre..." with entities "[(8800, 8928, 'Skills'), (8760, 8789, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6154.1700311779505}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "shrikant desai Working as accountant @ infosys  Pu..." with entities "[(589, 737, 'Skills'), (421, 523, 'Skills'), (391,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sharan Adla - Email me on Indeed: indeed.com/r/Sha..." with entities "[(2421, 2450, 'College Name'), (2416, 2419, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6178.448940257681}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Siddhartha Chetri 7 years of experience in IT Netw..." with entities "[(5471, 5838, 'Skills'), (5457, 5461, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6188.206704325182}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Vamsi krishna hyderbad, Telangana - Email me on In..." with entities "[(271, 290, 'Skills'), (231, 261, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6199.985454951028}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sai Patha Mule ESB Integration Developer - Cisco S..." with entities "[(11921, 12599, 'Skills'), (11791, 11876, 'Skills'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 6578.923216257791}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Manisha Bharti Software Automation Engineer  Pune,..." with entities "[(2833, 4400, 'Skills'), (2819, 2823, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7232.947794352273}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sohan Dhakad Shivpuri, Madhya Pradesh - Email me o..." with entities "[(870, 894, 'Skills'), (793, 810, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7237.235041845765}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pavithra M "Infosys" internship  Bengaluru, Karnat..." with entities "[(998, 1038, 'Email Address'), (611, 984, 'Skills'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7412.4980874887815}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ramya. P Hyderabad, Telangana - Email me on Indeed..." with entities "[(4542, 4549, 'Skills'), (4178, 4187, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7469.594974341072}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shubham Mittal System Engineer - Infosys Limited  ..." with entities "[(2197, 2231, 'Skills'), (2184, 2188, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ravi Shivgond Bidar, Karnataka - Email me on Indee..." with entities "[(1341, 1384, 'Email Address'), (1131, 1136, 'Loca...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7532.535720648445}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Tanmoy Maity Kolkata, West Bengal - Email me on In..." with entities "[(319, 338, 'Skills'), (289, 296, 'Location'), (28...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7549.594457077991}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Arpit Godha Senior Process Executive  Jaipur, Raja..." with entities "[(3144, 3495, 'Skills'), (3081, 3104, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7554.747316067945}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ijas Nizamuddin Associate Consultant - State Stree..." with entities "[(4652, 4850, 'Skills'), (4607, 4612, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7591.314509702753}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Mayank Shukla Infosys group as a Test Analyst - In..." with entities "[(2348, 3131, 'Skills'), (2324, 2328, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7852.146020723413}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Harini Komaravelli Test Analyst at Oracle, Hyderab..." with entities "[(2275, 2281, 'Companies worked at'), (2235, 2241,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 7895.2986180488015}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Madas Peddaiah Anantapur, Andhra Pradesh - Email m..." with entities "[(2934, 2938, 'Graduation Year'), (2917, 2921, 'Gr...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8031.135112494602}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Chhaya Prabhale Kharadi, Pune, 411014, IN - Email ..." with entities "[(1943, 2050, 'Skills'), (478, 488, 'Designation')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8075.2835711840535}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Kartik Sharma Systems Engineer - Infosys Ltd  Delh..." with entities "[(3086, 3255, 'Skills'), (3046, 3058, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8129.744302139058}
+{'ner': 8159.684515193477}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Kowsick Somasundaram Certified Network Associate T..." with entities "[(696, 1129, 'Skills'), (625, 661, 'College Name')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Rupesh Reddy Technology Consultant - EIT Services ..." with entities "[(6732, 6848, 'Skills'), (6703, 6707, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+{'ner': 8243.227246756687}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Suresh Kanagala Architecture SharePoint/Office 365..." with entities "[(1171, 1574, 'Skills'), (962, 1096, 'Skills'), (9...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8259.387960345972}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Khushboo Choudhary Developer  Noida, Uttar Pradesh..." with entities "[(1466, 1549, 'Skills'), (1363, 1421, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8293.678831442281}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sameer Kujur Orrisha - Email me on Indeed: indeed...." with entities "[(265, 307, 'Email Address'), (210, 251, 'Skills')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8299.569924243799}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sayani Goswami I Phone solution Consultant  Kolkat..." with entities "[(314, 333, 'College Name'), (261, 271, 'Companies...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8302.739722411556}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sivaganesh Selvakumar DevOps Consultant with Infos..." with entities "[(2349, 2642, 'Skills'), (2257, 2291, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8379.828280963258}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Navas Koya Test Engineer  Mangalore, Karnataka - E..." with entities "[(2110, 2404, 'Skills'), (2055, 2064, 'Location'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8397.988169150456}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pankaj Bhosale Microsoft SQL-SERVER  Dhule, Mahara..." with entities "[(1482, 1487, 'Location'), (1369, 1413, 'Email Add...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8488.422998506663}
+{'ner': 8707.454314787028}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Tejasri Gunnam Bengaluru, Karnataka - Email me on ..." with entities "[(3517, 3878, 'Skills'), (3387, 3481, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8851.190149504779}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Vineeth Vijayan "Store Executive" - Orange City Ho..." with entities "[(6994, 7350, 'Skills'), (6936, 6973, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8873.006565988151}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ganesh AlalaSundaram A Dev-Test Professional with ..." with entities "[(3321, 3376, 'Skills'), (3296, 3311, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Divesh Singh Bengaluru, Karnataka - Email me on In..." with entities "[(947, 1180, 'Skills'), (833, 845, 'College Name')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8885.085770820286}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Srinu Naik Ramavath anymore job  Serilingampalle, ..." with entities "[(670, 694, 'Skills'), (596, 644, 'Skills'), (375,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 8932.348010574486}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Suman Biswas SAP UI5 Lead, Native HANA Developer -..." with entities "[(5053, 5059, 'Companies worked at'), (5013, 5019,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9114.05576423278}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Kiran Kumar I Having 2.1 years of Experience in IT..." with entities "[(1403, 1487, 'Skills'), (1351, 1393, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9242.637046848442}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Venkateswara D specialist - Technology Process  IN..." with entities "[(7858, 7886, 'College Name'), (7853, 7856, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9285.063498769905}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Praveen Bhaskar Program Manager (Software Delivery..." with entities "[(4459, 4959, 'Skills'), (4445, 4450, 'Designation...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9304.71304358637}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shivam Rathi Microsoft technology Associate (MTA) ..." with entities "[(1379, 1406, 'College Name'), (1371, 1378, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Siddharth Choudhary Microsoft Office Suite - Exper..." with entities "[(785, 956, 'Skills'), (643, 674, 'Designation'), ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9319.46855321249}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Syed Sadath ali Coimbatore - Email me on Indeed: i..." with entities "[(221, 246, 'Skills'), (206, 211, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9332.255539680478}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Asha Subbaiah (Microsoft Partner Readiness Operati..." with entities "[(3345, 3380, 'College Name'), (3321, 3344, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9361.327463949678}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Krishna Prasad Patna City, Bihar - Email me on Ind..." with entities "[(288, 293, 'Location'), (267, 285, 'College Name'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9372.243602045837}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Vijayalakshmi Govindarajan SAP as a Consultant - S..." with entities "[(6310, 6336, 'Name'), (5746, 5755, 'Companies wor...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9409.982778810921}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Puneeth R Escalation Specialist - HiPower Support ..." with entities "[(2182, 2210, 'College Name'), (2177, 2180, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9425.053566961575}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Anil Kumar Microsoft Azure (Basic Management)  Del..." with entities "[(8004, 8009, 'Location'), (7716, 7721, 'Location'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9464.659439860869}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Angad Waghmare Pune, Maharashtra - Email me on Ind..." with entities "[(3878, 3937, 'Degree'), (3110, 3846, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9476.022353443692}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Akshay Dubey Actively looking for opportunity in ...." with entities "[(2889, 3089, 'Skills'), (2734, 2846, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9484.339892601956}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Madhava Konjeti HR Executive  Bengaluru, Karnataka..." with entities "[(1818, 1893, 'Skills'), (1760, 1766, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9512.820418470528}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Karthik G V Program Manager, Product Manager, Prod..." with entities "[(1750, 1759, 'Companies worked at'), (1467, 1476,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9648.375746362832}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Vinay Singhal New Delhi, Delhi - Email me on Indee..." with entities "[(937, 980, 'Email Address'), (580, 923, 'Skills')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9658.600379670537}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Jaspreet Kaur Oceanic Consultants as a HR Executiv..." with entities "[(5670, 5781, 'Skills'), (462, 481, 'Designation')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9668.466427511803}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Hemil Bhavsar Jr. ASP.NET Developer in True Vision..." with entities "[(1085, 1500, 'Skills'), (848, 961, 'Skills'), (83...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9775.417249836171}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Karthik Gururaj Technical Lead at Infosys Ltd. - P..." with entities "[(2814, 2839, 'Degree'), (2773, 2813, 'Degree'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9791.400735628746}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ramesh chokkala Telangana - Email me on Indeed: in..." with entities "[(250, 278, 'College Name'), (243, 248, 'Degree'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9802.540579034416}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Nitin Tr PeopleSoft Consultant  Bangalore Urban, K..." with entities "[(3511, 3749, 'Skills'), (3313, 3364, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Bike Rally Chief Coordinator of LEAR  Palghat, Ker..." with entities "[(826, 830, 'Graduation Year'), (779, 797, 'Colleg...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9814.063815247076}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ramkrishan Bhatt python developer  Bengaluru, Karn..." with entities "[(1439, 1468, 'College Name'), (1434, 1437, 'Degre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9825.559789055083}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Yogi Pesaru Developer - Infosys Limited  Hyderabad..." with entities "[(3748, 3809, 'Skills'), (3679, 3745, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9880.865839441829}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Rishabh soni Anuppur, Madhya Pradesh - Email me on..." with entities "[(242, 256, 'Skills'), (223, 233, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9883.861572162179}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Karan Turkar Balaghat, Madhya Pradesh - Email me o..." with entities "[(228, 272, 'Skills'), (214, 218, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9893.420876935008}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Akila Mohideen System Engineer, Infosys Limited, I..." with entities "[(2207, 2359, 'Skills'), (2095, 2138, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9910.863370772027}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Zaheer Uddin Technical Project Manager  Hyderabad,..." with entities "[(4901, 4910, 'Location'), (4843, 4861, 'College N...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 9927.273339584279}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Soumya Balan Soumya Balan - BE Computer Science - ..." with entities "[(3036, 3040, 'Graduation Year'), (2717, 2959, 'Sk...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10061.34193046372}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Partho Sarathi Mitra Kolkata, West Bengal - Email ..." with entities "[(230, 262, 'College Name'), (223, 229, 'Degree'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10067.536875032192}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ajay Elango Software Engineer  Bangalore City, Kar..." with entities "[(6930, 7494, 'Skills'), (6845, 6875, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10123.885955013639}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Dushyant Bhatt BI / Big Data/ Azure  Hyderabad-Dec..." with entities "[(5893, 6043, 'Skills'), (5838, 5859, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10163.725908713719}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Gaurav Soni New Delhi, Delhi - Email me on Indeed:..." with entities "[(1089, 1239, 'Skills'), (921, 1063, 'Skills'), (9...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10311.012666056502}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Deepika S Test Engineer - Infosys Ltd  - Email me ..." with entities "[(3170, 3174, 'Graduation Year'), (3120, 3143, 'Co...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Koushik Katta Devops  Hyderabad, Telangana - Email..." with entities "[(2957, 3074, 'Skills'), (2943, 2948, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10490.646447966445}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Jitendra Babu FI/CO Consultant in Tech Mahindra - ..." with entities "[(5510, 5514, 'Graduation Year'), (5481, 5508, 'Co...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10618.291702578414}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Jyotirbindu Patnaik Associate consultant@SAP labs ..." with entities "[(3052, 3067, 'Skills'), (2993, 3016, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Anand S Bangalore, Karnataka - Email me on Indeed:..." with entities "[(211, 441, 'Skills'), (182, 193, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10628.736343637434}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Mohini Gupta Server Support Engineer  Gurgaon, Har..." with entities "[(2326, 2333, 'Location'), (1821, 2095, 'Skills'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10775.078648344008}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Somanath Behera Associate, Cognizant technology So..." with entities "[(1916, 2392, 'Skills'), (1562, 1567, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10785.52308008928}
+Pass
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pradeep Kumar Security Analyst in Infosys - Career..." with entities "[(587, 669, 'Skills'), (512, 554, 'College Name'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10795.75900464229}
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Jacob Philip Kottayam, Kerala - Email me on Indeed..." with entities "[(2165, 2215, 'Skills'), (2145, 2155, 'Degree'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10805.243249244091}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pranay Sathu Software Test Automation Engineer  Hy..." with entities "[(2051, 2567, 'Skills'), (1914, 1943, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10936.54371518552}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Dilliraja Baskaran Tamil Nadu - Email me on Indeed..." with entities "[(363, 411, 'Email Address'), (314, 349, 'Skills')...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 10936.543899490183}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Anurag Asthana Pune, Maharashtra - Email me on Ind..." with entities "[(7675, 7692, 'Years of Experience'), (7133, 7595,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11187.59807582075}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Gaikwad Dilip Microsoft Dainamic Software Billing ..." with entities "[(951, 990, 'Skills'), (926, 941, 'Companies worke...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11194.87114293999}
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Abdul B Arabic Language supporter (Content Analyst..." with entities "[(2349, 2472, 'Skills'), (2331, 2340, 'Degree'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11208.888047408638}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sudaya Puranik Principal Engineer Technical Staff ..." with entities "[(2656, 2689, 'Skills'), (2586, 2626, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11293.422660183487}
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Kandrapu Reddy Senior Travel Operations (Domestic,..." with entities "[(4232, 4330, 'Skills'), (4058, 4101, 'Degree'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11346.773237061081}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Srushti Bhadale Mumbai, Maharashtra - Email me on ..." with entities "[(1551, 1852, 'Skills'), (1454, 1499, 'Email Addre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11549.179866861878}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Debasish Dasgupta Trainer-Finacle-Core Banking Sol..." with entities "[(5840, 5847, 'Companies worked at'), (2090, 2137,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11561.51029958818}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Bangalore Tavarekere Volunteer Contestant, Yappon ..." with entities "[(386, 391, 'Graduation Year'), (320, 361, 'Colleg...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11567.508728196812}
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sanand Pal SQL and MSBI Developer with experience ..." with entities "[(3056, 3090, 'Skills'), (3042, 3046, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "amarjyot sodhi Voice and Accent Trainer :Masters i..." with entities "[(1130, 1174, 'Email Address'), (1112, 1116, 'Grad...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11587.239018707518}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sai Vivek Venkatraman Decisive, Data driven and re..." with entities "[(5105, 5109, 'Graduation Year'), (5043, 5095, 'Co...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11620.80634148727}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sridevi H Bangalore, Karnataka - Email me on Indee..." with entities "[(2473, 2498, 'Designation'), (2030, 2037, 'Compan...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11744.885917681557}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Puneet Singh Associate Software Engineer  Bengalur..." with entities "[(989, 1007, 'Skills'), (952, 968, 'Skills'), (919...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11763.846827121506}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Rahul Bollu Software Engineer - Disney  Hyderabad,..." with entities "[(4093, 4190, 'Skills'), (3940, 4089, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11835.08158394886}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Krishna Prasad Patna, Bihar - Email me on Indeed: ..." with entities "[(283, 327, 'Email Address'), (257, 262, 'Location...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11847.306946924064}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "kimaya sonawane Thane, Maharashtra - Email me on I..." with entities "[(802, 806, 'Graduation Year'), (524, 661, 'Skills...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11875.820029014829}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Fenil Francis head of operation and logistics  Tri..." with entities "[(774, 897, 'Skills'), (694, 728, 'Skills'), (648,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11898.436134603913}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Mohammed Murtuza Major Incident Manager / Escalati..." with entities "[(7924, 8040, 'Skills'), (7872, 7891, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11918.146607068475}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Moumita Mitra - Email me on Indeed: indeed.com/r/M..." with entities "[(1963, 2094, 'Skills'), (1818, 1926, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Chaban kumar Debbarma Tripura - Email me on Indeed..." with entities "[(277, 328, 'Email Address'), (257, 263, 'College ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11924.800864383973}
+{'ner': 11937.181356461619}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Tapan kumar Nayak Bhubaneshwar, Orissa - Email me ..." with entities "[(168, 181, 'Location'), (152, 159, 'Companies wor...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11978.21950152612}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shrinidhi Selva Kumar NOC and QA Engineer at Skava..." with entities "[(757, 761, 'Graduation Year'), (702, 750, 'Colleg...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 11997.295800388583}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pratik Vaidya Pune, Maharashtra - Email me on Inde..." with entities "[(1901, 1906, 'Skills'), (1812, 1816, 'Graduation ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12017.30427610865}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Gunjan Nayyar Hoshiarpur, Punjab - Email me on Ind..." with entities "[(1234, 1277, 'Email Address'), (1146, 1150, 'Grad...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12034.050398975898}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ravi Shankar Working as Escalation Engineer with M..." with entities "[(4016, 4025, 'Companies worked at'), (3941, 3950,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12099.9905528311}
+Pass
+Pass
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Aarti Pimplay Operations Center Shift Manager (OCS..." with entities "[(3054, 3363, 'Skills'), (2333, 2341, 'Companies w...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12102.982250942227}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Hartej Kathuria Data Analyst Intern - Oracle Retai..." with entities "[(2246, 2573, 'Skills'), (1435, 1480, 'Email Addre...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Shivam Sharma L1 Analyst in Microsoft project - HC..." with entities "[(1380, 1525, 'Skills'), (1287, 1296, 'Location'),...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pulkit Saxena New Delhi, Delhi - Email me on Indee..." with entities "[(3673, 4270, 'Skills'), (3497, 3502, 'Companies w...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12410.648198617931}
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Pawan Nag Microsoft Certified System Engineer  Del..." with entities "[(523, 562, 'Email Address'), (500, 509, 'Name'), ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12427.954036556432}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Keshav Dhawale 3 TCS Security guard Access Control..." with entities "[(971, 1015, 'Email Address'), (877, 895, 'College...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12432.123218892204}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Nidhi Pandit Test Engineer - Infosys Limited  - Em..." with entities "[(3132, 3611, 'Skills'), (3005, 3083, 'Skills'), (...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+Pass
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Yathishwaran P Maximo Consultant - Infosys Limited..." with entities "[(19523, 19683, 'Skills'), (19377, 19479, 'Skills'...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12461.450177821858}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Arpit Jain Quality Analyst - ThoughtWorks Technolo..." with entities "[(2301, 2380, 'Skills'), (2088, 2131, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12504.525186151657}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "VARUN AHLUWALIA Quantitative Analyst  - Email me o..." with entities "[(773, 848, 'Skills'), (735, 740, 'Graduation Year...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12517.828013801749}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Avani Priya - Email me on Indeed: indeed.com/r/Ava..." with entities "[(368, 409, 'Email Address'), (314, 334, 'College ...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12522.342614339235}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Sarfaraz Ahmad Associate network engineer - TATA C..." with entities "[(4690, 5815, 'Skills'), (4558, 4577, 'College Nam...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12914.493010686281}
+C:\Users\Admin\Desktop\Test\mini\lib\site-packages\spacy\language.py:482: UserWarning: [W030] Some entities could not be aligned in the text "Ramakrishna Rao DevOps Consultant - Tech Mahindra ..." with entities "[(5995, 6012, 'Companies worked at'), (5913, 5930,...". Use `spacy.gold.biluo_tags_from_offsets(nlp.make_doc(text), entities)` to check the alignment. Misaligned entities (with BILUO tag '-') will be ignored during training.
+  gold = GoldParse(doc, **gold)
+{'ner': 12932.497799770827}
+Starting iteration 1
+{'ner': 194.07349824905396}
+Pass
+{'ner': 205.58794659748673}
+{'ner': 216.2805469001487}
+{'ner': 421.50882047068626}
+{'ner': 431.6458966203809}
+Pass
+{'ner': 523.0486146875501}
+{'ner': 533.3927916462893}
+Pass
+Pass
+{'ner': 618.948973077106}
+Pass
+{'ner': 779.149585860538}
+Pass
+Pass
+Pass
+Pass
+{'ner': 836.542088645267}
+{'ner': 840.1542889211393}
+{'ner': 848.1259226738607}
+{'ner': 924.7783738314306}
+{'ner': 927.9539928494455}
+{'ner': 1054.5007381497385}
+Pass
+{'ner': 1092.9368452664899}
+{'ner': 1149.303022341101}
+{'ner': 1156.177481787567}
+Pass
+Pass
+Pass
+{'ner': 1164.52766844177}
+{'ner': 1182.0555160209265}
+{'ner': 1207.767952053408}
+{'ner': 1375.678271381716}
+{'ner': 1380.6924046228091}
+Pass
+{'ner': 1392.6910064207432}
+Pass
+{'ner': 1410.29574221197}
+{'ner': 1420.5020824829157}
+{'ner': 1428.3612722006935}
+{'ner': 1457.1361199157388}
+{'ner': 1519.895906715289}
+{'ner': 1642.0670933412464}
+{'ner': 1644.780651159689}
+{'ner': 1650.9179999047985}
+{'ner': 1656.408397638574}
+{'ner': 1732.200898603078}
+Pass
+Pass
+{'ner': 1751.4805749524412}
+{'ner': 1775.4803414628323}
+Pass
+{'ner': 1782.6258007831248}
+Pass
+Pass
+Pass
+{'ner': 1822.8198153732183}
+{'ner': 1836.267625538453}
+Pass
+{'ner': 1857.5442594236183}
+{'ner': 1966.3905020898628}
+{'ner': 2010.2289805135179}
+{'ner': 2025.1708274932525}
+{'ner': 2030.1691716855798}
+{'ner': 2101.679062405828}
+{'ner': 2190.3479943668876}
+Pass
+{'ner': 2200.523958369087}
+{'ner': 2208.3696003765904}
+{'ner': 2219.3438040260944}
+{'ner': 2250.9899088622265}
+{'ner': 2467.2945703746013}
+{'ner': 2569.320600497835}
+{'ner': 2808.4565173269443}
+{'ner': 2937.2489535243444}
+{'ner': 2993.9560102538167}
+{'ner': 3006.255617216412}
+{'ner': 3097.685827419344}
+Pass
+{'ner': 3221.7521214636004}
+{'ner': 3315.46561367828}
+{'ner': 3635.684769943539}
+Pass
+{'ner': 3647.6660186113663}
+{'ner': 3747.0648988546677}
+{'ner': 3759.7201298752116}
+{'ner': 3774.7586776980156}
+{'ner': 3812.607082830435}
+{'ner': 3912.015124633194}
+{'ner': 4089.379186406017}
+{'ner': 4355.017892494083}
+{'ner': 4364.504354003617}
+{'ner': 4382.244414356264}
+{'ner': 4409.620509421122}
+Pass
+Pass
+{'ner': 4428.800708094324}
+{'ner': 4463.439409196322}
+{'ner': 4497.93267188891}
+Pass
+{'ner': 4501.5523898634565}
+Pass
+{'ner': 4508.004983106715}
+{'ner': 4518.715571267474}
+Pass
+Pass
+{'ner': 4545.07455426697}
+{'ner': 4614.297446730177}
+{'ner': 4627.3418068876435}
+{'ner': 4758.122751256402}
+Pass
+Pass
+Pass
+{'ner': 4799.050615934606}
+{'ner': 4825.4293912590165}
+{'ner': 4935.844212645354}
+{'ner': 5058.644075149359}
+Pass
+Pass
+{'ner': 5096.540112297671}
+{'ner': 5118.794772315459}
+{'ner': 5292.445716786819}
+Pass
+Pass
+{'ner': 5381.590867925124}
+{'ner': 5394.531593460453}
+{'ner': 5432.759171675754}
+Pass
+Pass
+{'ner': 5438.999263602405}
+{'ner': 5476.993608164697}
+{'ner': 5633.804990920335}
+{'ner': 5664.227525984732}
+{'ner': 5675.003405637969}
+Pass
+{'ner': 5693.187433368452}
+{'ner': 5713.793356377906}
+Pass
+Pass
+{'ner': 5796.692960695347}
+{'ner': 6062.775432542881}
+Pass
+Pass
+{'ner': 6089.044999203002}
+Pass
+{'ner': 6136.676582906462}
+{'ner': 6160.741556592735}
+{'ner': 6223.806122351945}
+{'ner': 6455.979224969209}
+Pass
+{'ner': 6516.1316376221785}
+Pass
+Pass
+{'ner': 6535.072199865694}
+Pass
+{'ner': 6629.214008256311}
+{'ner': 6674.427382935288}
+{'ner': 6804.616948236229}
+{'ner': 6921.921040107014}
+{'ner': 7020.0162981641315}
+Pass
+{'ner': 7064.75892737739}
+{'ner': 7119.023029180693}
+Pass
+{'ner': 7151.90827746548}
+{'ner': 7232.227498542967}
+{'ner': 7279.419727590384}
+{'ner': 7309.765814539973}
+Pass
+Pass
+{'ner': 7333.788557782947}
+{'ner': 7353.784812149303}
+{'ner': 7477.289522346752}
+{'ner': 7584.491974892738}
+Pass
+Pass
+{'ner': 7611.0753778030075}
+{'ner': 7615.28059898602}
+{'ner': 7646.659446436038}
+Pass
+Pass
+{'ner': 7706.151712776219}
+{'ner': 7769.05724492768}
+Pass
+{'ner': 8140.801514790451}
+{'ner': 8161.9952346092505}
+{'ner': 8276.016537428502}
+Pass
+{'ner': 8343.749327013753}
+{'ner': 8411.417273799441}
+{'ner': 8573.600406090281}
+{'ner': 8679.586943666003}
+Pass
+{'ner': 8723.609273827187}
+{'ner': 8764.26327370854}
+Pass
+{'ner': 8828.755594842154}
+Pass
+Starting iteration 2
+{'ner': 10.588781102000212}
+{'ner': 112.14169583879266}
+{'ner': 190.79932783208642}
+{'ner': 226.7441749635891}
+{'ner': 241.6030650818866}
+{'ner': 257.4803071388342}
+{'ner': 275.55099168004324}
+{'ner': 291.65614155241144}
+{'ner': 304.7703275825701}
+Pass
+{'ner': 319.3124703458383}
+{'ner': 330.31569213986984}
+{'ner': 336.41936274908255}
+{'ner': 344.1384704887455}
+{'ner': 352.5046823090652}
+{'ner': 539.3876488274673}
+{'ner': 557.4239911344472}
+{'ner': 588.3199975399773}
+{'ner': 656.7497008352082}
+{'ner': 812.7793458072358}
+{'ner': 818.6376462586793}
+Pass
+{'ner': 1312.8011146195802}
+{'ner': 1356.9292348318793}
+Pass
+{'ner': 1385.916319385922}
+{'ner': 1407.5963523013577}
+Pass
+Pass
+{'ner': 1436.6736409746418}
+{'ner': 1451.2620688233774}
+Pass
+{'ner': 1477.208720836044}
+{'ner': 1526.366602431122}
+{'ner': 1536.3975111590203}
+Pass
+{'ner': 1557.1440921167027}
+{'ner': 1577.6631284395348}
+Pass
+Pass
+Pass
+Pass
+{'ner': 1613.2754602694854}
+{'ner': 1635.908736854975}
+Pass
+{'ner': 1663.4585596213087}
+{'ner': 1693.8723559947189}
+{'ner': 1707.0332704984553}
+{'ner': 2003.293678661526}
+Pass
+{'ner': 2139.598194500149}
+Pass
+{'ner': 2145.820091010921}
+{'ner': 2306.853117229335}
+{'ner': 2316.8398495399197}
+{'ner': 2527.818305560275}
+Pass
+{'ner': 2539.63915990631}
+Pass
+{'ner': 2583.164400826736}
+{'ner': 2593.6158711660864}
+Pass
+{'ner': 2618.2992994975375}
+{'ner': 2626.333346256413}
+{'ner': 2650.1211253183483}
+{'ner': 2795.4519388454555}
+{'ner': 2834.0190762108014}
+Pass
+{'ner': 2843.2068071844506}
+{'ner': 2881.074139979529}
+{'ner': 2929.382387904311}
+Pass
+{'ner': 2943.0322015302872}
+{'ner': 3058.7827575447654}
+{'ner': 3356.4851078035927}
+{'ner': 3475.2256862454733}
+{'ner': 3500.070526012095}
+{'ner': 3596.888657056602}
+Pass
+{'ner': 3694.81080097227}
+{'ner': 3722.364334162491}
+{'ner': 3997.3502197826083}
+{'ner': 4280.296090241688}
+Pass
+{'ner': 4732.495670434254}
+Pass
+{'ner': 4842.0850969517405}
+{'ner': 4881.01786129007}
+Pass
+{'ner': 4900.38581316376}
+Pass
+{'ner': 5050.56442003155}
+{'ner': 5070.2722931659}
+{'ner': 5206.082204543628}
+Pass
+Pass
+{'ner': 5253.758338116683}
+{'ner': 5273.918625222278}
+{'ner': 5285.40746491047}
+{'ner': 5450.380617960032}
+Pass
+Pass
+{'ner': 5539.140346684169}
+Pass
+{'ner': 5625.350878798079}
+{'ner': 5637.4408648466015}
+{'ner': 5655.386036291977}
+Pass
+{'ner': 5677.443791201567}
+{'ner': 5810.107265039023}
+Pass
+{'ner': 5834.539431130328}
+Pass
+{'ner': 5847.342696991753}
+{'ner': 5872.237433807408}
+{'ner': 5906.989904476268}
+Pass
+{'ner': 5915.443255501648}
+Pass
+Pass
+Pass
+Pass
+{'ner': 5942.562214447966}
+Pass
+{'ner': 5945.413111449504}
+{'ner': 5971.154986813763}
+{'ner': 6013.46954487111}
+{'ner': 6044.4208206316}
+Pass
+{'ner': 6093.415985164862}
+{'ner': 6096.983292717275}
+{'ner': 6123.151684600648}
+{'ner': 6149.126301972285}
+{'ner': 6192.857108828562}
+Pass
+Pass
+{'ner': 6203.97755573764}
+Pass
+{'ner': 6209.805335528042}
+Pass
+{'ner': 6342.986117861058}
+{'ner': 6733.087328455235}
+{'ner': 6786.551278776314}
+{'ner': 6916.01095587277}
+{'ner': 6944.82400318497}
+Pass
+{'ner': 7028.21823402756}
+{'ner': 7127.98687597626}
+Pass
+{'ner': 7146.955168580919}
+Pass
+{'ner': 7198.523375793643}
+{'ner': 7238.274228497691}
+{'ner': 7309.189452791404}
+{'ner': 7487.214018130492}
+{'ner': 7807.177850747298}
+Pass
+{'ner': 7847.595413962196}
+Pass
+{'ner': 8099.423546353172}
+Pass
+Pass
+{'ner': 8132.906271186125}
+Pass
+Pass
+Pass
+{'ner': 8174.096617764072}
+{'ner': 8190.3662345960975}
+{'ner': 8222.228194776668}
+{'ner': 8239.136970549684}
+{'ner': 8252.545142335737}
+{'ner': 8315.5528958375}
+{'ner': 8500.940697961523}
+{'ner': 8588.196625166609}
+{'ner': 8626.008542933538}
+{'ner': 8673.681882479264}
+Pass
+Pass
+{'ner': 8766.539800622537}
+{'ner': 8793.292019738037}
+{'ner': 8816.65621959536}
+{'ner': 8874.988567577719}
+Pass
+{'ner': 8887.498967975047}
+Pass
+{'ner': 8951.343242700812}
+{'ner': 9030.304050232884}
+Pass
+{'ner': 9064.097763217153}
+Pass
+{'ner': 9081.571554167254}
+{'ner': 9096.812068020616}
+{'ner': 9132.65451266163}
+Pass
+{'ner': 9265.340321797066}
+Pass
+{'ner': 9311.104952810452}
+Pass
+Pass
+{'ner': 9414.508196769402}
+Starting iteration 3
+{'ner': 23.689472210942768}
+{'ner': 65.5846939793555}
+{'ner': 97.52690430417715}
+Pass
+Pass
+Pass
+{'ner': 133.07351547865255}
+{'ner': 187.02449264017923}
+{'ner': 205.18654695180885}
+{'ner': 215.31472512996106}
+{'ner': 224.43220463484005}
+{'ner': 779.5752314636059}
+Pass
+Pass
+{'ner': 798.3652669647229}
+{'ner': 812.3798337717428}
+Pass
+{'ner': 818.8965283140667}
+{'ner': 866.3623041279741}
+Pass
+Pass
+Pass
+{'ner': 898.1770027667869}
+{'ner': 952.7360117412525}
+{'ner': 961.5517501070652}
+{'ner': 973.7049570895531}
+Pass
+{'ner': 1019.0020951844551}
+{'ner': 1048.4803079556175}
+{'ner': 1059.7626314687102}
+{'ner': 1077.7587862212702}
+{'ner': 1145.7602309782549}
+{'ner': 1210.8020367261513}
+Pass
+{'ner': 1268.0081868743862}
+{'ner': 1278.78254904452}
+Pass
+{'ner': 1349.2666264124516}
+{'ner': 1444.0386429377202}
+{'ner': 1535.0575868435506}
+Pass
+{'ner': 1590.326441640437}
+{'ner': 1596.9751676167855}
+{'ner': 1633.5345554973703}
+{'ner': 1652.1441004697938}
+Pass
+{'ner': 1665.4828151068307}
+{'ner': 1831.3437732658006}
+{'ner': 1835.26571273555}
+{'ner': 1858.9443320272503}
+{'ner': 1999.614308500105}
+{'ner': 2005.3184062594833}
+{'ner': 2070.5212961191596}
+{'ner': 2089.0300790766473}
+Pass
+Pass
+{'ner': 2095.4156409661505}
+{'ner': 2192.469687825184}
+Pass
+{'ner': 2236.5509246449787}
+Pass
+Pass
+{'ner': 2246.1060157513043}
+{'ner': 2258.9106651174357}
+{'ner': 2259.7760302710635}
+{'ner': 2268.7787992282215}
+{'ner': 2290.6818133249585}
+Pass
+{'ner': 2296.4344469878556}
+{'ner': 2324.0546549461283}
+{'ner': 2326.171146408802}
+Pass
+{'ner': 2337.3141749472607}
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+{'ner': 2676.297693309306}
+{'ner': 2691.880511315704}
+{'ner': 2794.987591626287}
+{'ner': 2823.048551885143}
+{'ner': 2836.5657562530623}
+{'ner': 3044.4717953122245}
+{'ner': 3103.028211436039}
+Pass
+{'ner': 3126.1062894865836}
+Pass
+{'ner': 3174.6351014777983}
+{'ner': 3185.047059103331}
+{'ner': 3208.1686660556597}
+{'ner': 3232.572720704539}
+Pass
+{'ner': 3255.759131784627}
+Pass
+{'ner': 3320.9602302267044}
+{'ner': 3379.526752288529}
+{'ner': 3403.565458637156}
+{'ner': 3518.765035307693}
+{'ner': 3647.0384849670404}
+Pass
+Pass
+{'ner': 3698.280529632891}
+{'ner': 3728.3007880349937}
+{'ner': 3764.404384200188}
+{'ner': 3861.429680415156}
+{'ner': 3869.735786724471}
+{'ner': 4035.452235836171}
+Pass
+{'ner': 4094.7925562061127}
+Pass
+{'ner': 4103.430262277773}
+{'ner': 4118.543051079695}
+{'ner': 4175.84842989078}
+{'ner': 4184.375247695623}
+{'ner': 4215.271602892537}
+{'ner': 4234.953522342943}
+{'ner': 4270.847971282654}
+{'ner': 4285.597158032573}
+{'ner': 4320.442774104815}
+{'ner': 4322.997683052728}
+{'ner': 4393.573930380921}
+{'ner': 4416.838676409495}
+{'ner': 4432.274787946592}
+Pass
+Pass
+{'ner': 4460.466524776634}
+{'ner': 4471.927195454632}
+{'ner': 4475.539081064403}
+{'ner': 4482.394636055903}
+Pass
+{'ner': 4517.542463850213}
+Pass
+Pass
+{'ner': 4538.56116295353}
+{'ner': 4550.287903664083}
+Pass
+{'ner': 4568.102183378074}
+{'ner': 4595.046409861641}
+Pass
+Pass
+Pass
+{'ner': 4610.260784189908}
+Pass
+{'ner': 4616.900722873999}
+Pass
+{'ner': 4636.967321494805}
+Pass
+{'ner': 4751.807825852731}
+Pass
+{'ner': 4760.030107613267}
+Pass
+{'ner': 4803.817106343924}
+{'ner': 4807.394601724102}
+{'ner': 4832.285867081372}
+{'ner': 4863.879614897126}
+{'ner': 4893.629531918684}
+Pass
+{'ner': 4922.846875833293}
+Pass
+{'ner': 4986.945001577904}
+{'ner': 5031.104407109382}
+{'ner': 5244.109186686637}
+{'ner': 5373.169515236343}
+Pass
+Pass
+{'ner': 5432.466973316892}
+Pass
+{'ner': 5488.445651247901}
+{'ner': 5526.786992480229}
+{'ner': 5540.204171896647}
+{'ner': 5553.307803802858}
+Pass
+{'ner': 5660.590282493005}
+{'ner': 5771.789082460771}
+{'ner': 5804.545652650061}
+{'ner': 5825.500648075668}
+Pass
+{'ner': 5872.648475623527}
+Pass
+{'ner': 5890.291716811327}
+{'ner': 5900.848748327313}
+{'ner': 5954.59400240433}
+{'ner': 5972.530307760702}
+{'ner': 6016.693842194283}
+{'ner': 6023.2481334282975}
+{'ner': 6103.831171959425}
+{'ner': 6118.271851343277}
+{'ner': 6133.410533972639}
+{'ner': 6135.186266566978}
+{'ner': 6177.093335057563}
+Pass
+{'ner': 6178.515646580103}
+{'ner': 6204.589666133226}
+Pass
+Pass
+Pass
+Pass
+Pass
+Starting iteration 4
+{'ner': 5.95928665144539}
+{'ner': 12.49223202807239}
+Pass
+{'ner': 37.335421411429124}
+{'ner': 110.94814282480307}
+{'ner': 190.15731555048058}
+{'ner': 219.8071451673717}
+{'ner': 285.21115345158285}
+{'ner': 367.3152543345899}
+Pass
+{'ner': 447.54360966034835}
+{'ner': 529.2200674667805}
+Pass
+{'ner': 573.628577451393}
+Pass
+{'ner': 593.9967636376354}
+Pass
+Pass
+Pass
+Pass
+{'ner': 610.8458464184044}
+{'ner': 659.4746083049071}
+{'ner': 669.7955041908195}
+{'ner': 687.626362726142}
+{'ner': 712.4995317836207}
+{'ner': 800.4704013247889}
+{'ner': 808.0462005926345}
+{'ner': 812.7028317557085}
+{'ner': 819.3166529748958}
+{'ner': 849.1508409612496}
+{'ner': 921.7170046426971}
+Pass
+Pass
+{'ner': 1022.9868326064342}
+{'ner': 1030.9118272149503}
+Pass
+Pass
+{'ner': 1057.1445996753162}
+Pass
+{'ner': 1058.2233214207695}
+Pass
+Pass
+{'ner': 1071.932029390289}
+{'ner': 1100.8590768669271}
+{'ner': 1108.1307662566815}
+{'ner': 1124.0377657365316}
+{'ner': 1138.3261062495965}
+{'ner': 1169.0790971914205}
+{'ner': 1270.2829487720403}
+{'ner': 1325.2834046246383}
+{'ner': 1429.9443946244094}
+{'ner': 1456.5828975644456}
+{'ner': 1493.9522667481642}
+Pass
+Pass
+{'ner': 1505.737099232142}
+{'ner': 1521.389565551276}
+Pass
+Pass
+{'ner': 1534.7820905095905}
+{'ner': 1595.3505220622174}
+{'ner': 1633.0014907012826}
+Pass
+Pass
+{'ner': 1643.1889264399406}
+{'ner': 1657.2182187798453}
+{'ner': 1670.421919358384}
+{'ner': 1755.8697912818307}
+Pass
+{'ner': 1782.1388025927145}
+Pass
+{'ner': 1802.246174733966}
+{'ner': 1834.0404829796005}
+{'ner': 1842.857567115367}
+{'ner': 1870.3172054282577}
+Pass
+{'ner': 1882.4772903243531}
+Pass
+{'ner': 1992.8560317079057}
+Pass
+{'ner': 2142.7448207509105}
+{'ner': 2143.5774983078195}
+Pass
+Pass
+{'ner': 2247.774720336329}
+{'ner': 2363.75261547363}
+{'ner': 2398.785206111356}
+Pass
+{'ner': 2416.3120508513002}
+Pass
+{'ner': 2550.537218289688}
+{'ner': 2585.923659416154}
+{'ner': 2589.71252349347}
+{'ner': 2603.5830568494475}
+{'ner': 2613.6142526269805}
+Pass
+{'ner': 2674.3661615067076}
+{'ner': 2766.065583441491}
+{'ner': 2788.0591025502335}
+{'ner': 2879.742913626219}
+{'ner': 2890.523606485671}
+Pass
+{'ner': 2953.718419173847}
+Pass
+{'ner': 2963.800546608514}
+{'ner': 3015.2762884321837}
+{'ner': 3400.825964850488}
+{'ner': 3469.471715907681}
+{'ner': 3479.313391328469}
+{'ner': 3482.521401712606}
+Pass
+{'ner': 3635.348009357164}
+{'ner': 3660.8782671483923}
+Pass
+{'ner': 3672.0279697765845}
+Pass
+{'ner': 3680.329182408694}
+Pass
+{'ner': 3858.859052322749}
+Pass
+{'ner': 3871.7919050765368}
+{'ner': 3874.172971880032}
+Pass
+Pass
+{'ner': 3920.5424522754597}
+{'ner': 3925.3963293906313}
+{'ner': 3950.263813077636}
+Pass
+Pass
+{'ner': 4006.48766288118}
+{'ner': 4012.3661281264085}
+Pass
+{'ner': 4045.5460180481973}
+{'ner': 4058.737034769358}
+{'ner': 4111.744484364783}
+{'ner': 4171.11372089546}
+{'ner': 4226.672874615408}
+Pass
+{'ner': 4306.551585444129}
+{'ner': 4390.451141387679}
+{'ner': 4410.565921269812}
+Pass
+{'ner': 4432.4172666487175}
+{'ner': 4549.240706723638}
+{'ner': 4621.656597249665}
+{'ner': 4668.352145052119}
+Pass
+{'ner': 4702.515574890162}
+{'ner': 4735.931167306307}
+{'ner': 4774.98156314547}
+{'ner': 5026.454062039208}
+{'ner': 5035.449534729837}
+{'ner': 5071.6177541322695}
+{'ner': 5125.4379079732835}
+Pass
+Pass
+Pass
+{'ner': 5126.920367000632}
+{'ner': 5134.151309731444}
+Pass
+{'ner': 5158.114042730735}
+{'ner': 5172.526601149637}
+Pass
+{'ner': 5197.650960483059}
+{'ner': 5206.637048465512}
+Pass
+Pass
+{'ner': 5639.167199832699}
+{'ner': 5641.162551157533}
+Pass
+{'ner': 5646.735237522616}
+{'ner': 5672.458927706075}
+{'ner': 5686.812967047941}
+{'ner': 5740.641937899667}
+Pass
+{'ner': 5764.745088540689}
+Pass
+Pass
+{'ner': 5781.364112484833}
+{'ner': 5785.696539912149}
+{'ner': 5844.35450779486}
+Pass
+Pass
+{'ner': 5878.821310199413}
+{'ner': 5905.33113991489}
+{'ner': 5922.424522369087}
+{'ner': 5936.84787277803}
+Pass
+{'ner': 5941.805573779521}
+{'ner': 6094.093443769393}
+{'ner': 6133.342049753918}
+{'ner': 6162.161200041938}
+{'ner': 6196.423345016713}
+{'ner': 6213.83802700045}
+Pass
+{'ner': 6225.206796619351}
+Pass
+{'ner': 6488.010418030674}
+{'ner': 6495.810756172677}
+Pass
+Starting iteration 5
+Pass
+Pass
+Pass
+{'ner': 42.80915050367118}
+{'ner': 53.76986948713111}
+Pass
+{'ner': 67.27322079120236}
+{'ner': 69.06150831317963}
+{'ner': 93.08808130411286}
+{'ner': 97.15819707148651}
+Pass
+{'ner': 111.22427809769718}
+{'ner': 119.10677759493996}
+{'ner': 176.79916846812415}
+{'ner': 205.66169909097647}
+{'ner': 212.27643111878083}
+Pass
+{'ner': 216.95159400983366}
+{'ner': 260.3693384478556}
+{'ner': 270.2839237480961}
+{'ner': 299.1478330394836}
+{'ner': 323.97403883680244}
+{'ner': 328.6719868399683}
+{'ner': 349.7071439170992}
+{'ner': 396.26097563759106}
+Pass
+{'ner': 409.2533015969599}
+Pass
+Pass
+Pass
+{'ner': 414.5054074042004}
+{'ner': 478.2922613714349}
+Pass
+{'ner': 547.8153444297773}
+{'ner': 556.6147696379012}
+{'ner': 604.3269052688811}
+{'ner': 620.0301122929741}
+{'ner': 640.3737672763689}
+{'ner': 651.8086477646176}
+{'ner': 672.1097411419306}
+{'ner': 673.0811642323284}
+{'ner': 696.6560214847204}
+Pass
+Pass
+{'ner': 758.8400986283896}
+{'ner': 835.0331067904708}
+{'ner': 853.0949656974763}
+{'ner': 929.7683368529097}
+{'ner': 946.7986438723794}
+{'ner': 999.5527147466391}
+Pass
+{'ner': 1049.6792910872073}
+{'ner': 1057.6509020621481}
+{'ner': 1070.0173166137774}
+{'ner': 1117.2101912643416}
+Pass
+{'ner': 1137.6655379661247}
+{'ner': 1170.9489769221695}
+{'ner': 1189.318296642305}
+Pass
+Pass
+{'ner': 1821.5122930717484}
+Pass
+Pass
+{'ner': 1863.1331372162153}
+{'ner': 1883.1995301942552}
+{'ner': 1898.5013723474813}
+{'ner': 1916.9272079595144}
+{'ner': 1924.2636065826214}
+Pass
+{'ner': 1934.7960606008987}
+{'ner': 2038.7591513782959}
+Pass
+Pass
+{'ner': 2054.3618160934957}
+{'ner': 2105.3497119398626}
+{'ner': 2145.3030938591646}
+{'ner': 2242.7890732969927}
+{'ner': 2259.8566610880034}
+Pass
+{'ner': 2334.2134771695955}
+Pass
+Pass
+{'ner': 2382.4242633483036}
+Pass
+Pass
+Pass
+{'ner': 2409.1285572475417}
+{'ner': 2416.2629299021055}
+{'ner': 2417.2041981251523}
+{'ner': 2441.322866911487}
+{'ner': 2492.844036165112}
+Pass
+{'ner': 2709.166544261807}
+Pass
+Pass
+{'ner': 2731.5515747385152}
+{'ner': 2738.6324022026483}
+Pass
+Pass
+Pass
+{'ner': 2851.514710208935}
+{'ner': 2898.7486231034372}
+Pass
+{'ner': 2938.180823793179}
+{'ner': 2949.45133806347}
+{'ner': 2979.8682712796244}
+{'ner': 3030.987919232527}
+Pass
+{'ner': 3096.846073371892}
+{'ner': 3130.3191992853926}
+{'ner': 3154.9838836068766}
+Pass
+{'ner': 3166.4495248991543}
+Pass
+{'ner': 3180.4976441038843}
+{'ner': 3196.666473015265}
+{'ner': 3202.5580259236986}
+Pass
+{'ner': 3239.403651778727}
+{'ner': 3254.6053786608613}
+{'ner': 3286.1751906970535}
+{'ner': 3321.2532424122114}
+Pass
+{'ner': 3421.723354139926}
+{'ner': 3469.207356524749}
+Pass
+{'ner': 3500.166034049232}
+{'ner': 3572.229283947608}
+{'ner': 3577.3997690537885}
+{'ner': 3590.980927402897}
+{'ner': 3642.9146507320306}
+{'ner': 3766.8421953854463}
+Pass
+Pass
+{'ner': 3768.9308039343464}
+{'ner': 3991.130278626691}
+{'ner': 3994.5880306977524}
+Pass
+Pass
+{'ner': 4029.6409262055276}
+Pass
+{'ner': 4037.858654801323}
+{'ner': 4089.723541376094}
+{'ner': 4107.605674986022}
+{'ner': 4120.579067695483}
+{'ner': 4124.390397541832}
+{'ner': 4133.866061440504}
+{'ner': 4144.326153385969}
+{'ner': 4150.0685740470135}
+Pass
+{'ner': 4179.862824264281}
+Pass
+Pass
+{'ner': 4237.799196451538}
+{'ner': 4322.699251669826}
+{'ner': 4434.674064340405}
+{'ner': 4443.250296589471}
+{'ner': 4475.436283995602}
+{'ner': 4495.042575008888}
+Pass
+{'ner': 4532.792333583287}
+Pass
+{'ner': 4571.1760242358805}
+{'ner': 4668.329362548983}
+{'ner': 4756.030071117079}
+{'ner': 4763.862844444243}
+{'ner': 4769.514666058939}
+Pass
+{'ner': 4785.797620722792}
+{'ner': 4788.211690965128}
+Pass
+{'ner': 4873.427875462007}
+{'ner': 4888.540933857958}
+Pass
+{'ner': 4909.891877271754}
+{'ner': 4927.005205185503}
+{'ner': 5055.586113364786}
+{'ner': 5061.84250028481}
+{'ner': 5067.04078037371}
+{'ner': 5088.586670897433}
+{'ner': 5096.219294547717}
+{'ner': 5200.450469587743}
+Pass
+{'ner': 5220.4458162834935}
+{'ner': 5224.476711756736}
+{'ner': 5287.184465981275}
+{'ner': 5302.913552734137}
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+{'ner': 5341.669502778013}
+{'ner': 5426.992103023489}
+{'ner': 5436.611808097775}
+{'ner': 5502.2158671215575}
+Pass
+Starting iteration 6
+{'ner': 27.617823668545043}
+{'ner': 64.62280620573608}
+Pass
+Pass
+{'ner': 94.94556323385575}
+{'ner': 196.6711145779608}
+Pass
+{'ner': 244.59863387967005}
+{'ner': 276.04673923260077}
+Pass
+{'ner': 288.6113763345219}
+Pass
+{'ner': 308.7777593310765}
+Pass
+Pass
+{'ner': 350.69368340976314}
+Pass
+Pass
+{'ner': 384.14656814576836}
+{'ner': 443.5947445865512}
+{'ner': 477.61764070780725}
+{'ner': 678.9019260147378}
+{'ner': 688.1679384793728}
+{'ner': 699.7282599467104}
+Pass
+{'ner': 771.5967434320443}
+{'ner': 785.9146929180675}
+{'ner': 866.5156845257112}
+{'ner': 881.5553616770841}
+{'ner': 905.9474085647817}
+{'ner': 909.2542269736116}
+{'ner': 969.159106397248}
+Pass
+{'ner': 1011.706625956085}
+{'ner': 1022.4220024696294}
+{'ner': 1042.1405900197751}
+{'ner': 1099.1471007664404}
+{'ner': 1114.7061672113434}
+Pass
+{'ner': 1116.303796384975}
+{'ner': 1151.7373852388362}
+{'ner': 1161.1156121483841}
+Pass
+{'ner': 1169.661024066338}
+{'ner': 1321.8245528668144}
+Pass
+{'ner': 1357.049470610944}
+Pass
+{'ner': 1371.9376546553885}
+Pass
+Pass
+{'ner': 1398.888562347236}
+{'ner': 1405.914080835368}
+{'ner': 1616.8614394436138}
+Pass
+Pass
+{'ner': 1635.272757899262}
+{'ner': 1646.0711467473402}
+{'ner': 1655.3917090790828}
+{'ner': 1690.2950440140457}
+{'ner': 1854.4179380627365}
+Pass
+Pass
+Pass
+Pass
+{'ner': 1881.0375336975317}
+{'ner': 1888.2442963813623}
+Pass
+{'ner': 1904.8631404504647}
+{'ner': 1941.6702512443533}
+Pass
+Pass
+{'ner': 1945.7258133281769}
+{'ner': 1952.1191836608054}
+{'ner': 1960.4021398579373}
+{'ner': 1963.3668702448872}
+{'ner': 1990.1459037711998}
+Pass
+Pass
+{'ner': 2001.6900311937852}
+{'ner': 2042.2802329888864}
+{'ner': 2046.2511782657236}
+Pass
+{'ner': 2083.509456219559}
+Pass
+{'ner': 2097.01820208377}
+{'ner': 2117.8043990170017}
+Pass
+{'ner': 2201.180610599452}
+{'ner': 2239.7100753807363}
+{'ner': 2253.952987023421}
+{'ner': 2291.221564539266}
+{'ner': 2316.745657138451}
+{'ner': 2331.377407707591}
+Pass
+{'ner': 2348.5612756462915}
+{'ner': 2366.4964436519103}
+Pass
+{'ner': 2390.4089239839404}
+{'ner': 2423.5245706442684}
+{'ner': 2569.059265800187}
+{'ner': 2595.852637080493}
+Pass
+{'ner': 2617.126290729461}
+Pass
+{'ner': 2662.461714134685}
+Pass
+{'ner': 2716.718405503913}
+Pass
+{'ner': 2746.356702159292}
+{'ner': 2768.5113581479613}
+Pass
+{'ner': 2830.527354211206}
+{'ner': 2894.578640595669}
+{'ner': 2939.9882739043182}
+{'ner': 2991.51668622072}
+{'ner': 3003.3301501103792}
+{'ner': 3120.867143190198}
+Pass
+Pass
+Pass
+{'ner': 3127.3390947718835}
+{'ner': 3131.2579800674553}
+{'ner': 3224.389957120698}
+{'ner': 3272.5160076562875}
+{'ner': 3289.891422345963}
+{'ner': 3297.519077635458}
+{'ner': 3316.968098727754}
+{'ner': 3332.280865146339}
+{'ner': 3432.930544293046}
+{'ner': 3754.2733401418923}
+{'ner': 3814.0034135151914}
+{'ner': 3822.587985985517}
+{'ner': 3835.586103106785}
+{'ner': 3890.806318050034}
+{'ner': 3911.1243147820805}
+{'ner': 3918.1270011873426}
+Pass
+Pass
+Pass
+{'ner': 3937.917841241866}
+{'ner': 3948.119428072915}
+{'ner': 3973.4029749651104}
+{'ner': 4151.643022658363}
+{'ner': 4157.6304848923555}
+{'ner': 4159.214121885727}
+Pass
+Pass
+{'ner': 4272.303237028549}
+{'ner': 4310.975361372815}
+Pass
+Pass
+Pass
+Pass
+{'ner': 4347.308832262509}
+{'ner': 4364.9814133488335}
+Pass
+Pass
+{'ner': 4407.809922349895}
+{'ner': 4409.828908881136}
+{'ner': 4450.495582310656}
+Pass
+{'ner': 4458.213665504736}
+Pass
+Pass
+{'ner': 4489.91750751363}
+{'ner': 4497.2781822170655}
+{'ner': 4536.9587872264965}
+{'ner': 4540.2014180641445}
+{'ner': 4559.902102531009}
+{'ner': 4572.997016532907}
+{'ner': 4581.198724923284}
+{'ner': 4589.796585164232}
+{'ner': 4593.03006246098}
+Pass
+{'ner': 4608.98275187169}
+{'ner': 4615.261425549289}
+{'ner': 4668.74563961147}
+Pass
+Pass
+{'ner': 4675.118314505349}
+{'ner': 4742.045762927066}
+Pass
+Pass
+{'ner': 4745.524745569468}
+{'ner': 4745.524745824043}
+{'ner': 4748.818089420569}
+{'ner': 4806.196258165749}
+{'ner': 4839.269067154842}
+Pass
+Pass
+{'ner': 4985.1448398694565}
+{'ner': 4996.978429709497}
+{'ner': 4999.333824113483}
+{'ner': 4999.549161198433}
+{'ner': 5080.808349688421}
+{'ner': 5086.369843153241}
+Pass
+{'ner': 5100.816263442607}
+{'ner': 5110.960685991415}
+Starting iteration 7
+{'ner': 8.463705775133391}
+{'ner': 11.685954078085615}
+Pass
+Pass
+{'ner': 25.495643682023513}
+Pass
+{'ner': 99.60404977872037}
+{'ner': 110.66286718787963}
+{'ner': 119.07206471193193}
+{'ner': 192.2042557185855}
+{'ner': 233.93690652571286}
+{'ner': 251.42495516483484}
+{'ner': 261.16562934270394}
+Pass
+Pass
+{'ner': 293.6128759699603}
+{'ner': 295.5911190479242}
+{'ner': 308.0272464151377}
+{'ner': 319.7358715293841}
+{'ner': 334.7629518781319}
+{'ner': 337.2464739142263}
+{'ner': 377.15647300132997}
+Pass
+Pass
+{'ner': 411.30188859287165}
+Pass
+Pass
+{'ner': 425.4528921957638}
+Pass
+Pass
+Pass
+Pass
+{'ner': 505.4872007932093}
+{'ner': 533.0051940856313}
+{'ner': 570.1138781657603}
+Pass
+{'ner': 573.7081881023606}
+{'ner': 594.6680270239013}
+Pass
+{'ner': 622.9475981807738}
+{'ner': 678.9020586084044}
+{'ner': 740.4382167417026}
+{'ner': 756.55852993966}
+{'ner': 763.6564276167047}
+Pass
+{'ner': 797.673778024022}
+{'ner': 839.4181211543333}
+{'ner': 850.8405635626351}
+Pass
+{'ner': 873.3413142059527}
+Pass
+Pass
+{'ner': 928.6827648002019}
+{'ner': 976.1690311909425}
+Pass
+{'ner': 1032.8996759511301}
+{'ner': 1073.3792881152303}
+Pass
+Pass
+{'ner': 1219.0252681455286}
+{'ner': 1289.5727015530817}
+{'ner': 1302.5427259504456}
+Pass
+{'ner': 1317.1438598419452}
+{'ner': 1370.1305211803801}
+{'ner': 1603.232441606272}
+{'ner': 1604.6795771502348}
+{'ner': 1624.3053174700924}
+Pass
+Pass
+{'ner': 1630.2110862522345}
+{'ner': 1634.355236847281}
+{'ner': 1635.2719269443473}
+Pass
+{'ner': 1653.7022121368223}
+Pass
+{'ner': 1667.8317503450935}
+{'ner': 1684.46184551298}
+{'ner': 1693.2882949102184}
+{'ner': 1893.2701313931009}
+{'ner': 1913.0642325246317}
+Pass
+{'ner': 1913.9633537260377}
+{'ner': 1942.4205094752967}
+Pass
+{'ner': 1944.1520692296124}
+{'ner': 1959.7324845429991}
+Pass
+Pass
+{'ner': 1964.1936109446585}
+{'ner': 1970.0334440356908}
+{'ner': 2011.3467782492605}
+{'ner': 2047.5799453992602}
+{'ner': 2051.2504644152714}
+Pass
+Pass
+Pass
+{'ner': 2091.3780991941985}
+{'ner': 2091.9879001053955}
+{'ner': 2170.553838681904}
+{'ner': 2217.411315415558}
+{'ner': 2217.414115344782}
+Pass
+Pass
+{'ner': 2225.6530668077085}
+{'ner': 2241.407622802451}
+{'ner': 2256.339920755948}
+{'ner': 2272.368148084239}
+{'ner': 2358.537948075191}
+Pass
+Pass
+{'ner': 2438.8605855735696}
+{'ner': 2479.3432427514863}
+{'ner': 2543.857077184185}
+{'ner': 2600.1311630588752}
+Pass
+Pass
+{'ner': 2601.157147524998}
+Pass
+{'ner': 2601.314957218569}
+{'ner': 2605.217336451769}
+{'ner': 3045.5701454041005}
+{'ner': 3195.056492364168}
+{'ner': 3206.833251883166}
+Pass
+{'ner': 3229.9499780484407}
+{'ner': 3259.139847149951}
+{'ner': 3274.0722560639533}
+{'ner': 3504.595378136173}
+{'ner': 3504.835377071172}
+Pass
+{'ner': 3918.267172191411}
+{'ner': 3937.8935529707055}
+Pass
+{'ner': 3938.4800355888656}
+{'ner': 3947.9825788885423}
+{'ner': 4035.28071480897}
+{'ner': 4035.547622894931}
+{'ner': 4062.084832786539}
+Pass
+{'ner': 4086.968130516908}
+Pass
+Pass
+{'ner': 4206.115725940801}
+{'ner': 4208.7205864101015}
+{'ner': 4215.893974960625}
+{'ner': 4219.1757511729065}
+{'ner': 4232.626771574051}
+{'ner': 4239.095517908341}
+Pass
+{'ner': 4273.658082501973}
+{'ner': 4316.602687404736}
+{'ner': 4318.459301545825}
+{'ner': 4407.628424822893}
+Pass
+Pass
+Pass
+{'ner': 4410.651899351631}
+{'ner': 4415.515678114218}
+{'ner': 4445.1222989689995}
+Pass
+{'ner': 4478.317854132024}
+{'ner': 4495.119600750643}
+{'ner': 4515.310396992563}
+{'ner': 4521.433215256902}
+Pass
+Pass
+{'ner': 4531.1110657381705}
+{'ner': 4538.07343824194}
+Pass
+Pass
+{'ner': 4590.634304898798}
+Pass
+{'ner': 4691.8642195640205}
+Pass
+{'ner': 4764.916232752621}
+{'ner': 4771.515346173806}
+{'ner': 4781.507800473908}
+{'ner': 4792.3353928957295}
+{'ner': 4800.586482660754}
+{'ner': 4847.972334603455}
+{'ner': 4866.86833825479}
+Pass
+Pass
+{'ner': 4917.179346792769}
+{'ner': 4927.513593794012}
+Pass
+{'ner': 4937.292424717802}
+{'ner': 4989.535581315053}
+{'ner': 5008.891826259685}
+{'ner': 5022.478256834813}
+{'ner': 5032.415870027671}
+Pass
+{'ner': 5047.983888497082}
+{'ner': 5128.9997053597845}
+{'ner': 5149.583451081054}
+{'ner': 5166.288257068908}
+{'ner': 5180.30290882131}
+{'ner': 5187.84817672248}
+Pass
+Starting iteration 8
+Pass
+{'ner': 0.505560737681459}
+{'ner': 78.69850327918155}
+Pass
+{'ner': 98.61996792441846}
+{'ner': 104.14697403362858}
+Pass
+{'ner': 113.93736365801834}
+{'ner': 154.91907694332488}
+{'ner': 165.40068151809638}
+Pass
+{'ner': 167.46102198167532}
+{'ner': 204.2596608323441}
+{'ner': 215.00710962455955}
+{'ner': 490.3696195904562}
+Pass
+{'ner': 1140.5275080029319}
+{'ner': 1219.9508868915714}
+Pass
+Pass
+{'ner': 1227.4869596251506}
+{'ner': 1419.566919562522}
+{'ner': 1421.6097177635997}
+{'ner': 1479.2100338215382}
+{'ner': 1680.0976066418366}
+{'ner': 1930.82955978591}
+Pass
+Pass
+{'ner': 1954.5813916715701}
+{'ner': 2012.4493649805804}
+{'ner': 2048.844650052393}
+{'ner': 2222.9384276493433}
+Pass
+{'ner': 2280.7908902949634}
+{'ner': 2307.0292082316223}
+{'ner': 2320.7675475600913}
+{'ner': 2464.6904206994727}
+{'ner': 2540.901809704657}
+{'ner': 2550.9694171820224}
+Pass
+Pass
+{'ner': 2556.1963923897997}
+Pass
+Pass
+{'ner': 2559.958500153308}
+{'ner': 2576.4442360822823}
+Pass
+{'ner': 2584.5615147419658}
+Pass
+{'ner': 2595.0174463238664}
+{'ner': 2660.9510834660477}
+{'ner': 2664.4245234274085}
+{'ner': 2676.883318447329}
+{'ner': 2895.6780940227286}
+{'ner': 2911.6947438824805}
+Pass
+Pass
+{'ner': 2924.771919172436}
+{'ner': 2935.8524309570385}
+{'ner': 2942.9715923780905}
+{'ner': 3006.1386631927317}
+{'ner': 3034.983906278521}
+{'ner': 3073.334690099716}
+Pass
+Pass
+{'ner': 3074.04532113697}
+Pass
+{'ner': 3075.70536114542}
+{'ner': 3119.6562413073752}
+{'ner': 3130.986766874902}
+{'ner': 3144.7917073165327}
+{'ner': 3145.1416025635576}
+Pass
+{'ner': 3153.290854914112}
+{'ner': 3198.5105567829864}
+Pass
+{'ner': 3204.9171602060283}
+{'ner': 3206.998660441068}
+{'ner': 3241.7564423211606}
+{'ner': 3243.4336740812023}
+{'ner': 3267.355388431549}
+{'ner': 3280.9451023528}
+Pass
+{'ner': 3284.326631106882}
+{'ner': 3288.56787627148}
+{'ner': 3288.652103524411}
+Pass
+{'ner': 3325.0774546286225}
+Pass
+Pass
+{'ner': 3344.0478917913365}
+{'ner': 3378.693511933679}
+{'ner': 3379.039305900234}
+{'ner': 3436.2062761026423}
+Pass
+{'ner': 3439.691265683662}
+{'ner': 3450.9352809955426}
+{'ner': 3457.6572152243866}
+{'ner': 3465.9543418672515}
+{'ner': 3482.131102298587}
+Pass
+{'ner': 3540.074709427569}
+Pass
+{'ner': 3579.266932029549}
+Pass
+{'ner': 3616.6823191723497}
+{'ner': 3654.9059252831985}
+{'ner': 3695.286126907934}
+{'ner': 3700.2546800714126}
+{'ner': 3819.392610707849}
+{'ner': 3834.769463066785}
+{'ner': 3854.4907349794703}
+Pass
+Pass
+Pass
+{'ner': 3854.8087837037083}
+{'ner': 3883.4626342870097}
+Pass
+{'ner': 4161.644087991844}
+Pass
+Pass
+{'ner': 4171.141999322138}
+Pass
+Pass
+Pass
+{'ner': 4199.617376800958}
+Pass
+{'ner': 4205.571652792195}
+{'ner': 4320.745340250233}
+{'ner': 4337.36836530378}
+{'ner': 4347.641042424439}
+{'ner': 4369.422281441293}
+{'ner': 4372.15656093705}
+Pass
+Pass
+{'ner': 4408.146283082873}
+{'ner': 4443.4030433187345}
+{'ner': 4469.523152914122}
+{'ner': 4470.006441226757}
+{'ner': 4559.265305888899}
+{'ner': 4573.425700324501}
+Pass
+{'ner': 4612.090321156296}
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+{'ner': 4739.023924085412}
+{'ner': 4744.048268699733}
+{'ner': 4800.164731164383}
+{'ner': 4845.44445772277}
+Pass
+Pass
+{'ner': 4917.441823539877}
+Pass
+Pass
+Pass
+{'ner': 4920.154471665296}
+Pass
+{'ner': 4945.768046229055}
+Pass
+{'ner': 4998.60528939115}
+{'ner': 5018.603121357388}
+{'ner': 5046.394145144499}
+Pass
+{'ner': 5047.029046633001}
+{'ner': 5068.265527633803}
+{'ner': 5124.911028856432}
+{'ner': 5142.3606089062805}
+{'ner': 5147.585982118179}
+{'ner': 5212.2197996195455}
+{'ner': 5217.28219108205}
+{'ner': 5233.860409802773}
+{'ner': 5298.062587164445}
+{'ner': 5301.793524213568}
+{'ner': 5406.752650954262}
+Pass
+{'ner': 5437.419464363846}
+{'ner': 5472.548210735562}
+{'ner': 5479.861908584723}
+{'ner': 5521.659911858041}
+{'ner': 5529.987454354284}
+Pass
+{'ner': 5535.0313059442515}
+Pass
+{'ner': 5535.662027892271}
+{'ner': 5536.5809181177565}
+{'ner': 5563.149165714667}
+{'ner': 5673.505382242189}
+{'ner': 5693.811998066037}
+{'ner': 5871.99088998559}
+{'ner': 5880.306401605402}
+Pass
+{'ner': 5894.7542763162255}
+{'ner': 5905.020325408433}
+{'ner': 5934.253939189812}
+{'ner': 5960.899982680519}
+Starting iteration 9
+{'ner': 19.534312935466573}
+{'ner': 35.660841220976295}
+Pass
+{'ner': 48.33863415992421}
+{'ner': 57.00357849554162}
+{'ner': 78.93437650928306}
+Pass
+Pass
+Pass
+Pass
+{'ner': 236.32896855602073}
+{'ner': 246.82641424591807}
+{'ner': 253.70474584153408}
+{'ner': 280.3315688505477}
+{'ner': 312.0926935703128}
+{'ner': 329.629392528931}
+Pass
+Pass
+{'ner': 329.92773369411077}
+{'ner': 376.62823014133465}
+Pass
+{'ner': 380.39880431946415}
+Pass
+{'ner': 408.7446182519899}
+{'ner': 409.60525711210346}
+{'ner': 467.4180746529181}
+Pass
+{'ner': 467.75534430613595}
+Pass
+{'ner': 468.2615687092649}
+Pass
+Pass
+{'ner': 483.95805168005205}
+{'ner': 497.29333693001496}
+{'ner': 509.7520183523407}
+Pass
+Pass
+Pass
+{'ner': 519.1099929826919}
+{'ner': 523.391360588097}
+Pass
+Pass
+{'ner': 543.9703036694053}
+Pass
+{'ner': 554.6149377527588}
+{'ner': 557.1088183887462}
+{'ner': 562.2625417007227}
+{'ner': 610.9371809182783}
+{'ner': 627.4484892209913}
+{'ner': 639.470339386043}
+{'ner': 655.4551483486625}
+Pass
+{'ner': 811.0553324758853}
+{'ner': 842.0566972968285}
+{'ner': 853.5211991680131}
+{'ner': 897.3206734958178}
+Pass
+{'ner': 903.4809269690113}
+Pass
+Pass
+{'ner': 906.069200426919}
+{'ner': 907.0944700000649}
+{'ner': 913.405903188767}
+{'ner': 914.0136260465717}
+Pass
+{'ner': 915.1859297532297}
+{'ner': 969.490121743927}
+{'ner': 974.0739970145406}
+{'ner': 988.3052874797856}
+{'ner': 1000.0734662658997}
+{'ner': 1086.063298064726}
+Pass
+Pass
+{'ner': 1088.1072509260973}
+{'ner': 1170.7802048141073}
+{'ner': 1188.3731889851651}
+{'ner': 1192.1172951495628}
+Pass
+Pass
+{'ner': 1208.4740931735946}
+{'ner': 1219.9858586636478}
+Pass
+Pass
+{'ner': 1507.2145171013767}
+{'ner': 1510.3697943445607}
+{'ner': 1518.5050956516754}
+{'ner': 1518.5151527096232}
+{'ner': 1520.5653855411283}
+{'ner': 1675.2576562950335}
+{'ner': 1679.8841684624863}
+Pass
+Pass
+{'ner': 1683.0181215892371}
+{'ner': 1690.3734300405176}
+{'ner': 1691.7658626807477}
+{'ner': 1699.5252616038358}
+{'ner': 1776.8513420453107}
+Pass
+{'ner': 1811.2559626946183}
+{'ner': 1817.2013815597825}
+{'ner': 1853.944890162756}
+{'ner': 1856.2718788462503}
+{'ner': 1859.2276297143057}
+{'ner': 1906.919554316099}
+Pass
+{'ner': 1912.2204500577902}
+{'ner': 1923.3680179506346}
+{'ner': 1975.6699962609573}
+{'ner': 1981.698682137278}
+Pass
+Pass
+{'ner': 2008.5288902894295}
+{'ner': 2018.301480370928}
+{'ner': 2049.612362124422}
+{'ner': 2065.9977767269984}
+Pass
+Pass
+{'ner': 2085.0525763334253}
+{'ner': 2105.07741087922}
+{'ner': 2113.38237151004}
+{'ner': 2133.8004482921624}
+{'ner': 2158.645191363432}
+{'ner': 2181.8571902036438}
+Pass
+Pass
+Pass
+{'ner': 2224.1495158716807}
+{'ner': 2224.4206154089175}
+Pass
+{'ner': 2302.7192475440665}
+Pass
+{'ner': 2314.5582604902356}
+{'ner': 2333.4237761748427}
+Pass
+Pass
+Pass
+{'ner': 2402.620378280937}
+{'ner': 2424.1956036757238}
+Pass
+{'ner': 2439.549916921447}
+{'ner': 2475.8102210070083}
+Pass
+{'ner': 2483.382964967248}
+{'ner': 2490.207077754866}
+{'ner': 2494.876487874416}
+{'ner': 2494.876491696545}
+Pass
+{'ner': 2605.0736780473676}
+{'ner': 2606.5234884913757}
+{'ner': 2663.3999260185033}
+{'ner': 2837.9207955119878}
+{'ner': 2852.804973718039}
+Pass
+Pass
+Pass
+Pass
+Pass
+Pass
+{'ner': 2862.847789356494}
+Pass
+{'ner': 2862.924845845968}
+Pass
+{'ner': 2887.6173658250414}
+{'ner': 2988.6371359704576}
+{'ner': 3007.77733723545}
+{'ner': 3025.145566378255}
+{'ner': 3027.090324484978}
+{'ner': 3035.662449191221}
+Pass
+{'ner': 3217.5166290503826}
+{'ner': 3244.0904943612827}
+Pass
+Pass
+{'ner': 3753.287657943131}
+{'ner': 3755.9922737394654}
+Pass
+{'ner': 3764.347449541731}
+{'ner': 3846.9629174887073}
+{'ner': 3864.9194028109173}
+Pass
+{'ner': 3894.9609158761064}
+{'ner': 3928.1506898678376}
+{'ner': 3950.755515247543}
+{'ner': 3973.5921778833613}
+{'ner': 3987.7089752165366}
+{'ner': 4045.5174349250037}
+{'ner': 4046.0267042226715}
+{'ner': 4097.546179307139}
+{'ner': 4099.179048856988}
+{'ner': 4103.755960908255}
+{'ner': 4107.766160912637}
+{'ner': 4129.602426857671}
+{'ner': 4136.196959034058}
+{'ner': 4149.468023225414}
+{'ner': 4184.387377985191}
+Pass
+{'ner': 4190.2921152970775}
+{'ner': 4203.903493077129}
+{'ner': 4215.201529082897}
+{'ner': 4260.809601168667}
+<spacy.lang.en.English object at 0x000001D756C89400>
+a
+Traceback (most recent call last):
+  File "spacy2.py", line 79, in <module>
+    print(ent.text, ent.labels_)
+AttributeError: 'spacy.tokens.span.Span' object has no attribute 'labels_'
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+<spacy.lang.en.English object at 0x000001F8C0C39490>
+a
+Alice Clark Name
+a
+Delhi Location
+a
+Software Engineer Designation
+a
+Microsoft – Companies worked at
+a
+Indian Institute of Technology College Name
+a
+2001 Graduation Year
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+<spacy.lang.en.English object at 0x000001B6D6769490>
+a
+NAME                 - Alice Clark
+a
+LOCATION             - Delhi
+a
+DESIGNATION          - Software Engineer
+a
+COMPANIES WORKED AT  - Microsoft –
+a
+COLLEGE NAME         - Indian Institute of Technology
+a
+GRADUATION YEAR      - 2001
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+<spacy.lang.en.English object at 0x000002052DAABE20>
+a
+NAME                 - Ganesh Chaturthi
+a
+LOCATION             - Karnataka
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>DIR > summary.txt
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>history > commands

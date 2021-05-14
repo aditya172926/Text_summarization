@@ -1,0 +1,37 @@
+cd desktop/Test
+mini\Scripts\activate
+cd Text-Summarization
+pip list
+python spacywords.py
+pip uninstall spacy
+pip install spacy==2.1.4
+C:\Users\Admin\Desktop\Test\mini\Scripts\python.exe -m pip install --upgrade pip
+pip install spacy==2.1.4
+pip install spacy==2.2.4
+pip list
+python spacywords.py
+pip uninstall spacy
+pip install spacy
+python spacywords.py
+pip install pickle
+pip install pickle5
+pip list
+python spacy2.py
+pip install PyMuPDF
+pip install fitz
+python spacy2.py
+pip uninstall fitz
+python spacy2.py
+pip uninstall PyMuPDF
+pip install PyMuPDF==1.16.14
+python spacy2.py
+pip uninstall spacy
+pip install spacy==2.3.5
+pip list
+pip uninstall en-core-web-sm
+python -m spacy download en_core_web_sm
+python spacy2.py
+DIR > summary.txt
+history > commands.log
+get-history > commands.log
+doskey/history > commands.log

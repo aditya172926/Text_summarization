@@ -1,0 +1,47 @@
+<spacy.lang.en.English object at 0x000001D756C89400>
+a
+Traceback (most recent call last):
+  File "spacy2.py", line 79, in <module>
+    print(ent.text, ent.labels_)
+AttributeError: 'spacy.tokens.span.Span' object has no attribute 'labels_'
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+<spacy.lang.en.English object at 0x000001F8C0C39490>
+a
+Alice Clark Name
+a
+Delhi Location
+a
+Software Engineer Designation
+a
+Microsoft – Companies worked at
+a
+Indian Institute of Technology College Name
+a
+2001 Graduation Year
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+<spacy.lang.en.English object at 0x000001B6D6769490>
+a
+NAME                 - Alice Clark
+a
+LOCATION             - Delhi
+a
+DESIGNATION          - Software Engineer
+a
+COMPANIES WORKED AT  - Microsoft –
+a
+COLLEGE NAME         - Indian Institute of Technology
+a
+GRADUATION YEAR      - 2001
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>python spacy2.py
+<spacy.lang.en.English object at 0x000002052DAABE20>
+a
+NAME                 - Ganesh Chaturthi
+a
+LOCATION             - Karnataka
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>DIR > summary.txt
+
+(mini) C:\Users\Admin\Desktop\Test\Text-Summarization>history > commands

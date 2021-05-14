@@ -1,0 +1,24 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 6C56-B82C
+
+ Directory of C:\Users\Admin\Desktop\Test\Text-Summarization
+
+27-02-2021  23:13    <DIR>          .
+27-02-2021  23:13    <DIR>          ..
+27-02-2021  21:49           112,428 Alice Clark CV.pdf
+26-02-2021  22:35    <DIR>          embeddings
+26-02-2021  22:31             1,445 input.txt
+26-02-2021  22:37             1,563 input2.txt
+27-02-2021  11:29             3,303 input3.txt
+27-02-2021  17:02               714 input4.txt
+27-02-2021  22:29    <DIR>          nlp_model
+27-02-2021  17:04               535 output.txt
+27-02-2021  11:40               757 requirements.txt
+27-02-2021  11:46            11,831 run.py
+27-02-2021  23:01           223,184 sample.pdf
+27-02-2021  23:01             2,719 spacy2.py
+27-02-2021  21:42             8,673 spacywords.py
+27-02-2021  23:13                 0 summary.txt
+27-02-2021  21:49           860,284 train_data.pkl
+              13 File(s)      1,227,436 bytes
+               4 Dir(s)  39,620,042,752 bytes free
