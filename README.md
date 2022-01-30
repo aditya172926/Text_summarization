@@ -1,5 +1,8 @@
 # Text_summarization
 ## Extractive Methodology summary generation
+
+Project Source Code -> [Text Extraction Branch](https://github.com/aditya172926/Text_summarization/tree/updateddev)
+
 Clone the project and then move into the project directory.
 Check out the requirements.txt file in the updateddev branch and use pip3 install -r requirements.txt or pip install -r requirements.txt to install.
 
